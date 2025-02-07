@@ -18,22 +18,39 @@ brew install --cask docker
 Alternatively, Docker can be installed without the `--cask` flag:
 ```sh
 brew install docker
+brew install colima
+colima start
 ```
 - Installs the CLI version of Docker without Docker Desktop.
+- `colima` is required to run Docker on macOS when installed without the `--cask` flag.
+
+### 🔹 Install Docker Compose (Optional)
+Docker Compose is a tool used to define and manage multi-container applications. If using Colima, Docker Compose must be installed separately:
+```sh
+brew install docker-compose
+```
+Docker Compose is optional but useful for running multi-container applications with ease.
+
+### 🔹 Install Docker on Windows (Official Website)
+Download and install Docker from the official website:
+[Docker Install for Windows](https://docs.docker.com/desktop/install/windows-install/)
 
 After installation, start Docker from the Applications folder or run:
 ```sh
 open -a Docker
 ```
 
-### 🔹 Install Docker on Windows (Official Website)
-Download and install Docker from the official website:
-[Docker Install for Windows](https://docs.docker.com/desktop/install/windows-install/)
-
 ### 🔹 Check if Docker is installed
+Before starting Docker, make sure to start `colima` by running:  
+```sh
+colima start
+```
+
 ```sh
 docker --version
 ```
+
+If you face issues starting Docker, quit your terminal and restart it.
 
 ### 🔹 Start the Docker service if not running
 ```sh
