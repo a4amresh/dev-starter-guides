@@ -10,13 +10,13 @@ Here are some of the tools and languages that will be covered in this repository
 
 - **[Docker](docs/docker.md)**
 - **[Docker compose](docs/docker-compose-guide.md)**
+- **[Python](docs/python.md)**
 
 More tools and technologies will be added soon!
 
 - **GPG Key**
 - **Kubernetes**
 - **Git**
-- **Python**
 - **Node.js**
 - **JavaScript**
 - **React**
