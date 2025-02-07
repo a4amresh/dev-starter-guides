@@ -9,6 +9,7 @@ Each guide will cover the essential steps for installation, configuration, and b
 Here are some of the tools and languages that will be covered in this repository:
 
 - **[Docker](docs/docker.md)**
+- **[Docker compose](docs/docker-compose-guide.md)**
 
 More tools and technologies will be added soon!
 

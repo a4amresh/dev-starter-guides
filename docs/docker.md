@@ -285,7 +285,8 @@ docker rmi $(docker images -q)
 
 In addition to the basic Docker commands listed in this guide, there are many other useful commands that can help streamline your development and deployment processes.
 
-[Some additional commands](docker-helpful-commands.md)
+- [Additional Docker commands](docker-helpful-commands.md)
+- [Docker compose guide](docker-compose-guide.md)
 
 For more details, visit [Docker Documentation](https://docs.docker.com/).
 
