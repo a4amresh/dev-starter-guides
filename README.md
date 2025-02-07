@@ -12,6 +12,7 @@ Here are some of the tools and languages that will be covered in this repository
 
 More tools and technologies will be added soon!
 
+- **GPG Key**
 - **Kubernetes**
 - **Git**
 - **Python**
