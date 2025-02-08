@@ -11,16 +11,20 @@ Here are some of the tools and languages that will be covered in this repository
 - **[Docker](docs/docker.md)**
 - **[Docker compose](docs/docker-compose-guide.md)**
 - **[Python](docs/python.md)**
+- **[NumPy](docs/numpy.md)**
 
 More tools and technologies will be added soon!
 
+- **Git**
 - **GPG Key**
 - **Kubernetes**
-- **Git**
-- **Node.js**
-- **JavaScript**
-- **React**
 - **Terraform**
+- **JavaScript**
+- **Node.js**
+- **React**
+- **Angular**
+- **Micro Frontend**
+- **Web Component**
 
 ## Contribution
 
