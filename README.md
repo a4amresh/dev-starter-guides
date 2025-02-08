@@ -12,6 +12,7 @@ Here are some of the tools and languages that will be covered in this repository
 - **[Docker compose](docs/docker-compose-guide.md)**
 - **[Python](docs/python.md)**
 - **[NumPy](docs/numpy.md)**
+- **[Pandas](docs/pandas.md)**
 
 More tools and technologies will be added soon!
 
