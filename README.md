@@ -8,11 +8,12 @@ Each guide will cover the essential steps for installation, configuration, and b
 
 Here are some of the tools and languages that will be covered in this repository:
 
+- **[AI/ML Beginner's Guide](docs/ai-ml-beginner-guide.md)**
+- **[Python](docs/python.md)**
+- **[Pandas](docs/pandas.md)**
+- **[NumPy](docs/numpy.md)**
 - **[Docker](docs/docker.md)**
 - **[Docker compose](docs/docker-compose-guide.md)**
-- **[Python](docs/python.md)**
-- **[NumPy](docs/numpy.md)**
-- **[Pandas](docs/pandas.md)**
 
 More tools and technologies will be added soon!
 

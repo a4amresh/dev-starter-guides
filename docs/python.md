@@ -140,5 +140,6 @@ except ZeroDivisionError:
 - **[Lambda Functions](python-lambda-function.md)**
 - **[List Comprehensions](python-list-comprehensions.md)**
 - **[Object-Oriented Programming (OOP) Concepts](python-oops.md)**
+- Using Python on macOS with [Virtual Environments (venv)](python-venv-pip.md)
 
 This step-by-step guide will help you build a strong foundation in Python. Happy coding! 🚀
