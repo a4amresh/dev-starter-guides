@@ -46,6 +46,8 @@ This guide provides an overview of AI/ML, from the basics to deploying a model f
 
 10. **Online Learning**: Continuously updating models as new data arrives in real-time without retraining from scratch.
 
+For more details on each category, refer to the [detailed documentation](ml-types.md).
+
 ---
 
 ## 🔹 AI/ML Workflow
