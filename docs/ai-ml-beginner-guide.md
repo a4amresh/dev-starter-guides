@@ -26,50 +26,25 @@ This guide provides an overview of AI/ML, from the basics to deploying a model f
 
 ## 🔹 Types of Machine Learning
 
-### 1. Supervised Learning
+1. **Supervised Learning**: Training models on labeled data to make predictions or classifications.
 
-Supervised learning is a type of ML where the model is trained on labeled data.
+2. **Unsupervised Learning**: Finding patterns and relationships in unlabeled data without predefined categories.
 
-- **Classification** (e.g., Spam Detection, Image Recognition)
-  - Logistic Regression
-  - Decision Trees
-  - Support Vector Machines (SVM)
-  - Neural Networks
-- **Regression** (e.g., House Price Prediction, Sales Forecasting)
-  - Linear Regression
-  - Random Forest Regression
-  - Gradient Boosting Machines
+3. **Semi-Supervised Learning**: Combining a small amount of labeled data with a large amount of unlabeled data for training.
 
-### 2. Unsupervised Learning
+4. **Reinforcement Learning**: Training an agent to make decisions by interacting with an environment and receiving rewards or penalties.
 
-Unsupervised learning deals with unlabeled data and finds hidden patterns in the dataset.
+5. **Deep Learning**: A subset of machine learning using neural networks with many layers to model complex data representations.
 
-- **Clustering** (e.g., Customer Segmentation, Anomaly Detection)
-  - K-Means Clustering
-  - DBSCAN
-  - Hierarchical Clustering
-- **Association** (e.g., Market Basket Analysis)
-  - Apriori Algorithm
-  - FP-Growth Algorithm
+6. **Natural Language Processing (NLP)**: Enabling machines to understand, interpret, and generate human language.
 
-### 3. Semi-Supervised Learning
+7. **Transfer Learning**: Reusing pre-trained models for new tasks to save time and computational resources.
 
-Semi-Supervised Learning is a combination of Supervised and Unsupervised Learning. It is useful when labeled data is limited and expensive to obtain.
+8. **Ensemble Learning**: Combining multiple models to improve prediction accuracy and performance.
 
-- **Examples:** Web page classification, Fraud Detection
-- **Algorithms:**
-  - Self-training
-  - Label Propagation
-  - Generative Adversarial Networks (GANs)
+9. **Active Learning**: Actively selecting data points to be labeled by a human to improve model performance with fewer labeled instances.
 
-### 4. Reinforcement Learning
-
-Reinforcement Learning (RL) is based on an agent that interacts with an environment to maximize rewards.
-
-- **Policy-based Learning** (e.g., Policy Gradient, Actor-Critic)
-- **Value-based Learning** (e.g., Q-Learning, Deep Q Networks)
-- **Model-free and Model-based approaches**
-- **Examples:** Robotics, Game Playing (e.g., AlphaGo, Chess AI)
+10. **Online Learning**: Continuously updating models as new data arrives in real-time without retraining from scratch.
 
 ---
 
