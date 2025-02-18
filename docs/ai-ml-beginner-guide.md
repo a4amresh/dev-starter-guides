@@ -6,7 +6,7 @@ This guide provides an overview of AI/ML, from the basics to deploying a model f
 
 ---
 
-## 🔹 1️. Basics of AI/ML
+## 🔹 Basics of AI/ML
 
 - What is AI?
 - What is Machine Learning (ML)?
@@ -15,7 +15,7 @@ This guide provides an overview of AI/ML, from the basics to deploying a model f
 
 ---
 
-## 🔹 2. Essential AI/ML Libraries
+## 🔹 Essential AI/ML Libraries
 
 - **Python** (Primary language for AI/ML development)
 - **NumPy, Pandas, Matplotlib** (Data Handling & Visualization)
@@ -24,7 +24,7 @@ This guide provides an overview of AI/ML, from the basics to deploying a model f
 
 ---
 
-## 🔹 3️. Types of Machine Learning
+## 🔹 Types of Machine Learning
 
 ### 1. Supervised Learning
 
@@ -73,59 +73,52 @@ Reinforcement Learning (RL) is based on an agent that interacts with an environm
 
 ---
 
-## 🔹 4️. Key Steps in ML Workflow
+## 🔹 AI/ML Workflow
 
-### 1. Data Collection & Preparation
-- Gather data from various sources
-- Clean and preprocess data (handling missing values, normalization).
-
-### 2. Exploratory Data Analysis (EDA)
-- Understand data distribution.
-- Identify correlations and trends using visualization tools (Matplotlib, Seaborn).
-
-### 3. Feature Engineering
-- Select important features.
-- Transform raw data into meaningful input.
-
-### 4. Model Selection & Training
-- Choose an appropriate algorithm.
-- Split data into training and test sets.
-- Train the model using frameworks (Scikit-learn, TensorFlow, PyTorch).
-
-### 5. Model Evaluation
-- Use metrics like Accuracy, Precision, Recall, F1-score.
-- Cross-validation to test generalization.
-
-### 6. Hyperparameter Tuning
-- Optimize model performance using GridSearchCV, RandomizedSearchCV.
-
-### 7. Save the Trained Model
-After training a model, it is crucial to save it for future use.
-
-> **Using Pickle to Save and Load Models**
-
-1. **Save the model:**
-```python
-import pickle
-with open('model.pkl', 'wb') as file:
-    pickle.dump(model, file)
-```
-2. **Load the model:**
-```python
-with open('model.pkl', 'rb') as file:
-    loaded_model = pickle.load(file)
-```
-
-
-### 8. Model Deployment
-- Convert model to a deployable format (.pkl, .h5, .onnx).
-- Deploying models using Flask API
-- Using FastAPI for faster responses
-- Deploying to cloud platforms (AWS, Google Cloud, Azure)
+1. **Data Collection** - Gather data from various sources.
+2. **Data Preprocessing** - Cleaning, transforming, and normalizing data.
+3. **Feature Engineering** - Selecting relevant features for the model.
+4. **Exploratory Data Analysis (EDA)**
+  - Understand data distribution.
+  - Identify correlations and trends using visualization tools (Matplotlib, Seaborn).
+5. **Model Selection** - Choosing the appropriate algorithm.
+6. **Model Training** - Training the model with data.
+7. **Model Evaluation** - Checking accuracy, precision, recall, etc.
+8. **Hyperparameter Tuning** - Optimizing model performance.
+9. **Save the Trained Model** - Storing the trained model for future use.
+10. **Model Deployment** - Making the model available for users.
 
 ---
 
-## 🔹 5️. Using Deployed Model in Flask API
+## 🔹 Save the Trained Model
+
+After training a model, it is crucial to save it for future use.
+
+### **Using Pickle to Save and Load Models**
+
+1. **Save the model:**
+   ```python
+   import pickle
+   with open('model.pkl', 'wb') as file:
+       pickle.dump(model, file)
+   ```
+2. **Load the model:**
+   ```python
+   with open('model.pkl', 'rb') as file:
+       loaded_model = pickle.load(file)
+   ```
+
+---
+
+## 🔹 Model Deployment
+
+- Deploying models using Flask API.
+- Using FastAPI for faster responses.
+- Deploying to cloud platforms (AWS, Google Cloud, Azure).
+
+---
+
+## 🔹 Using Deployed Model in Flask API
 
 1. **Install Flask**
    ```sh
